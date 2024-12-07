@@ -1,1 +1,0 @@
-define(["OK/EventBus","OK/EventFactoryForEventBus"],function(n,c){var e={};"use strict";var E="videoPlayer";var t=n.EventBus.factory(E);var s=t("episodeChanged");var o=t("episodeClicked");e.EPISODE_CHANGED=s;e.EPISODE_CLICKED=o;e.VideoPlayerEventBusesPrefix=E;return e});
