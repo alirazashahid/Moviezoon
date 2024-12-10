@@ -1,1 +1,0 @@
-define([],function(){var a={};"use strict";var c={};var t={};function n(e){return c.hasOwnProperty(e)}function o(e){return c[e]}function P(e){c[e]=new Promise(function(s){return t[e]=s})}function i(e){return t[e]}function r(e){delete c[e];delete t[e]}a.addPackagePromise=P;a.deallocatePackage=r;a.getPackagePromise=o;a.getPackageResolve=i;a.hasPackagePromise=n;return a});

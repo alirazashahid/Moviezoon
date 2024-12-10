@@ -1,1 +1,0 @@
-define([],function(){var e={};"use strict";var o=function(r,t){var n=r.getAttribute(t);if(n!=null){try{return JSON.parse(n)}catch(u){return null}}return null};var s=function(r,t){var n=r.getItem(t);if(n!=null){try{return JSON.parse(n)}catch(u){return null}}return null};e.parseJsonConf=o;e.parseStorageJsonConf=s;return e});
